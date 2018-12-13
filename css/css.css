@@ -1,0 +1,126 @@
+*{}
+body{}
+header{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+}
+.headingh1{
+    padding: 0;
+}
+.headingh1 h1{
+    color: white;
+}
+.headdingnav{
+}
+.headdingnav li{
+    padding: 20px;
+}
+.headdingnav li a{
+    color: white;
+    text-transform: capitalize;
+}
+.started{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 100px;
+        color: white;
+        text-transform: capitalize;
+}
+.overlay{
+    position: absolute;
+    background: #2f2f2f82;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.bodyimg{}
+.bodyimg img{
+    margin-bottom: 50px;
+}
+
+.project{}
+.bodyh1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.bodyh1 h1{
+    text-transform: capitalize;
+}
+.bodyh1 p{}
+
+.bodynav{
+    padding: 0;
+    margin-bottom: 50px;
+}
+.bodynav li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.bodynav p{
+    color: gray;
+}
+
+
+/***footer***/
+.bottom-a{
+    background: #ece9e9;
+}
+.bottom-a span{
+    color: blue; 
+}
+.bottomtext{}
+.bottomtext i{
+    text-transform: capitalize;
+}
+.bottomtext i b{}
+
+.heading{
+        width: 430px;
+        text-transform: capitalize;
+}
+.size{
+    padding: 0;
+    font-size: 10px;
+}
+.size li{
+    list-style: none;
+}
+.size li p{
+    text-transform: none;
+}
+
+.social{
+}
+.social ul{
+    margin-left: -40px;
+}
+.social ul li{
+    list-style: none;
+}
+.social ul li a{
+    color: black;
+    background: #ece9e9;
+    border: 1px solid;
+    padding: 2px 3px;
+    float: left;
+    line-height: 8px;
+    margin-right: 5px;
+}
+.social ul li a i{
+    font-size: 12px;
+}
+
+footer{}
+footer p{
+    font-size: 10px;
+    text-transform: none;
+}
+
+/***footer***/
